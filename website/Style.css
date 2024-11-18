@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #041228;
+}
+
+
+main{
+    font-family: 'gilroy';
+    height: 100%;
+    width:100%;
+    color: #fff;
+    background-color: #041228;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+nav{
+    /* background-color: blue; */
+    padding: 20px 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav .Company{
+    /* background-color: rgb(15, 249, 15); */
+    display: flex;
+    align-items:flex-stARTS;
+    /* height: 100px; */
+}
+#Logo{
+  /* padding: 10px 10px; */
+  margin: 10px 10px;
+}
+
+#Logo .logo{
+    height:80px;
+}
+
+#CompanyName{
+    align-items: flex-stARTS;
+    justify-content: left;
+    margin: 0px 0px;
+}
+
+#CompanyName .Jain{
+    margin-top: 0px;
+    color: #fff;
+    font-size:25px;
+    font-weight: 500;
+    font-style:unset;
+}
+
+#CompanyName .Moorti{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    /* font-style:unset; */
+}
+
+#CompanyName .ARTS{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    /* font-style:unset; */
+}
+
+nav .MenuList{
+    /* color: #fff; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 100px;
+    /* font-size: 20px; */
+}
+
+nav a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    text-shadow: 8px 8px 10px rgba(255, 255, 255, 0); transition: text-shadow 0.3s ease;
+}
+
+nav a:hover{
+    color: rgb(255, 240, 34);
+    text-shadow: 11px 11px 15px rgb(0, 0, 0);    
+    /* font-weight: 400; */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+section .Welcome{
+    font-size: 80px;
+    display: flex;
+    align-items: flex-stARTS;
+    /* justify-content:flex-stARTS;     */
+    padding:0px 90px;
+}
+.Welcome h2{
+    color: #d8d25d;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    /* padding:0px 90px; */
+    font-size: 60px;
+    line-height: 130px;
+    text-transform:uppercase;
+    font-weight: 100;
+}
+
+
+
+section .img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+    padding-left:90px;
+    border-radius: 2px;
+    /* background-color: aqua; */
+    
+}
+
+section .Image{
+    /* position: absolute; */
+    /* right: 40%; */
+    height: 250px;
+    width: 565px;
+    position:relative;
+    left: 50%;  
+    transform: translate(-50%);
+    /* background-color: coral; */
+    border-radius:100px;
+    margin-top: 10px;
+    /* margin-right: 90px; */
+    box-shadow: 1px 3px 20px #ffa70fe8;
+    /* padding-bottom:50px; */
+    /* justify-content:center; */
+    /* align-items:center; */
+    background-image: url(/ganpatiJi.jpg);
+    background-size:94%;
+    background-position: center;
+}
+
+section .Intro{
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     */
+     /* background-color: aquamarine; */
+    font-family: 'gilroy';
+    padding:0px 90px 0px 90px;
+    display: flex;
+    align-items: flex-stARTS;
+    justify-content:space-between;
+    
+}
+.Intro h1{
+    font-family: 'gilroy';
+    color: rgba(247, 176, 35, 0.856);
+    font-size: 100px;
+    line-height: 105px;
+    text-transform:uppercase;
+    font-weight: 600;
+    padding: 0px 30px 0px 0px;
+}
+
+p{
+    font-family: 'gilroy';
+    line-height: 50px;
+    padding: 0px 10px 0px 0px;
+    padding-top: 15px;
+    /* padding-left: 40px; */
+    /* padding-bottom: 50px; */
+    font-size: 27px;
+    align-items:stARTS;
+    font-weight:500;
+    justify-content:center;
+    /* font-style: normal; */
+    text-align: justify;
+    position:relative;
+    color: #fafa28b5;
+}
+
+section h1:hover{
+    /* color: rgb(34, 218, 255); */
+    text-shadow: 11px 11px 15px rgb(0, 0, 0);    
+    /* font-weight: 400; */
+}
+
+#Products{
+    font-size: 40px;
+    text-align: center;
+    color: #ffc116;
+    /* display: flex; */
+    align-items: center;
+    margin: 90px;
+}
+/*------------------------------------------------------------------------------------------------------------------ */
+.Products{
+    height: 100%;
+    width: 100%;
+    align-items:center;
+    justify-content:space-between;
+    /* border-radius: px; */
+    padding-top: 60px;
+    /* background-color: #14305e; */
+    /* margin-top: 20px; */
+    display: flex;
+}
+
+.item1{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(213, 42, 96);
+    border-radius: 30px;
+    /* margin: 10px; */
+    margin-left: 10%;
+}
+.item2{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(68, 135, 135);
+    border-radius: 30px;
+    margin: 15px;
+}
+.item3{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(47, 37, 137);
+    border-radius: 30px;
+    /* margin: 10px; */
+    margin-right: 10%;
+
+}
+.item4{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(43, 109, 13);
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 10%;
+
+}
+.item5{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(4, 66, 66);
+    border-radius: 30px;
+    margin: 10px 60px;
+}
+.item6{
+    height: 400px ;
+    width: 320px;
+    background-color: rgb(65, 34, 55);
+    border-radius: 30px;
+    /* margin: 10px; */
+    margin-right: 10%;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+#About{
+    font-size: 60px;
+}
